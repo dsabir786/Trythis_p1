@@ -119,17 +119,5 @@
 			<version>1.59.0</version>
 			<scope>compile</scope>
 		</dependency>
-	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.6.3</version>
-				<configuration>
-					<mainClass>com.microsoft.playwright.CLI</mainClass>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	</dependencies>	
 </project>
